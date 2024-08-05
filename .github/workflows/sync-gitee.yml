@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: wearerequired/git-mirror-action@v1
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_DEPLOY_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.GITTE_DEPLOY_KEY }}
         with:
           source-repo: "git@github.com:dekuyu/gitee-asyn.git"
           destination-repo: "git@gitee.com:zihaoyu/gitee-asyn.git"
